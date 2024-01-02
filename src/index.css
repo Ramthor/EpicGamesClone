@@ -1,0 +1,20 @@
+@import url("../src/Css/Header.css");
+@import url("./App.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --inter: "Inter", sans-serif;
+  --Oswald: "Oswald", sans-serif;
+  --bebas-Neue: "Bebas Neue", sans-serif;
+}
+
+body {
+  background-color: rgb(18, 18, 18);
+  margin: 0;
+  padding: 0;
+}

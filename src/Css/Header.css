@@ -1,0 +1,76 @@
+.global-header {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #18181c;
+}
+.global-header__flyout-wrapper {
+  display: flex;
+}
+.nav-flyout-toggle img {
+  height: 35px;
+}
+hr {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  border-color: rgba(112, 111, 111, 0.6);
+}
+.nav-flyout-toggle {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+
+  background: transparent;
+  padding: 15px;
+
+  object-fit: contain;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}
+.ExpandMoreIcon {
+  color: rgb(163, 163, 163);
+}
+
+.global-header__nav {
+  display: flex;
+}
+.store-txt {
+  padding-left: 23px;
+}
+
+.store-txt h2 {
+  color: rgb(255, 255, 255);
+
+  font-family: var(--bebas-Neue);
+  font-weight: 400;
+  font-size: 25px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.main-nav__list {
+  display: flex;
+
+  gap: 30px;
+  list-style: none;
+}
+.main-nav__list-item {
+  color: rgb(180, 180, 181);
+  font-family: var(--inter);
+  font-size: 14px;
+}
+.toolbar {
+  display: flex;
+}
+.toolbar-btn {
+  background-color: rgb(70, 70, 71);
+}
+.toolbar img {
+  height: 18px;
+  width: 18px;
+  color: aliceblue;
+}
