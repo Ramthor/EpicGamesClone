@@ -1,4 +1,4 @@
-.global-header {
+header {
   display: flex;
   overflow: hidden;
   align-items: center;
@@ -11,11 +11,11 @@
 .nav-flyout-toggle img {
   height: 35px;
 }
-hr {
+/* hr {
   margin-top: 21px;
   margin-bottom: 21px;
   border-color: rgba(112, 111, 111, 0.6);
-}
+} */
 .nav-flyout-toggle {
   display: flex;
   gap: 5px;
@@ -68,6 +68,9 @@ hr {
 }
 .toolbar-btn {
   background-color: rgb(70, 70, 71);
+  border: none;
+  border-radius: 100%;
+  padding: 6px;
 }
 .toolbar img {
   height: 18px;
